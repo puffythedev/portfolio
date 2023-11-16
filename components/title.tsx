@@ -1,7 +1,6 @@
 import { inter } from '@/shared/shared'
 
-
-function Title(){
+export default function Title(){
     return (
         <div className= {`skyopg ${inter.className}`}>
             SkyOPG
