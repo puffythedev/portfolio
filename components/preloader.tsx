@@ -7,14 +7,16 @@ function Preloader() {
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
-        const handleLoad: VoidFunction = () => {
-            setLoaded(true);
-        }
+        if(typeof window !== 'undefined'){
+            const handleLoad: VoidFunction = () => {
+                setLoaded(true);
+            }
 
-        window.addEventListener('load', handleLoad)
+            window.addEventListener('load', handleLoad)
 
-        return () => {
-            window.removeEventListener('load', handleLoad)
+            return () => {
+                window.removeEventListener('load', handleLoad)
+            }
         }
     }, []);
 
