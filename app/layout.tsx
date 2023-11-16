@@ -17,7 +17,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Preloader />
       <body className={inter.className}>{children}</body>
     </html>
   )
