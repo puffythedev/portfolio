@@ -26,6 +26,16 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.skyopg {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: #87CEEB;
+  text-shadow: 0 0 10px #87CEEB;
+  animation: shine 1.5s infinite alternate;
+}
+
 .preloader {
   position: fixed;
   top: 0;

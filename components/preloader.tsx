@@ -1,8 +1,6 @@
 "use client"
 import { useEffect, useState } from 'react'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import { inter } from '@/shared/shared'
 
 function Preloader() {
     const [loaded, setLoaded] = useState(false);
