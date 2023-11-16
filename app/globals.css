@@ -32,7 +32,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: slategray;
+  background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@ body {
 .border {
   width: 100px;
   height: 200px;
-  border: 5px solid #000;
+  border: 5px solid #ffffff;
   border-radius: 15px;
   position: relative;
   overflow: hidden;
@@ -63,7 +63,7 @@ body {
 .notch {
   width: 60px;
   height: 20px;
-  background-color: #000;
+  background-color: #ffffff;
   position: absolute;
   top: -5px;
   left: 50%;

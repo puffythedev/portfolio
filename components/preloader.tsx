@@ -5,7 +5,7 @@ function Preloader() {
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
-        const handleLoad = () => {
+        const handleLoad: VoidFunction = () => {
             setLoaded(true);
         }
 
