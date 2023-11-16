@@ -18,12 +18,10 @@ function Preloader() {
 
     return (
         <div className= {`preloader ${loaded ? 'loaded' : ''}`}>
-            {!loaded && (
-                <div className="border">
-                  <div className="notch" />
-                  <div className="water" />
-                </div>
-            )}
+            <div className="border">
+                <div className="notch" />
+                <div className="water" />
+            </div>
         </div>
     )
 }
