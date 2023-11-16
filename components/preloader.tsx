@@ -1,4 +1,3 @@
-"use client"
 import { useEffect, useState } from 'react'
 import { Inter } from 'next/font/google'
 
@@ -20,8 +19,8 @@ function Preloader() {
     }, []);
 
     return (
-        <div className= {`preloader ${loaded ? 'loaded' : ''}`}>
-            <h1 className= {inter.className}>Please wait...</h1>
+        <div className={`preloader ${loaded ? 'loaded' : ''}`}>
+            <h1 style={inter.style}>Please wait...</h1>
             <div className="border">
                 <div className="notch" />
                 <div className="water" />
