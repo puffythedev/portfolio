@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { inter } from '@/shared/shared'
-import './globals.css'
-import Preloader from '../components/preloader'
+import '../styles/globals.css'
 
 export const metadata: Metadata = {
   title: 'Sky - Developer',
