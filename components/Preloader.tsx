@@ -20,7 +20,7 @@ const Preloader: React.FC = () => {
       } ${styles.preloaderContainer}`}
     >
       <img
-        src="https://media.kars.bio/assets/pfp.gif"
+        src="https://cdn3.kars.bio/assets/external/sky.webp"
         alt="Preloader"
         className="rounded-full mb-4"
         style={{ width: '50px', height: '50px' }}
