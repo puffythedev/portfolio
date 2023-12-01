@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="text-center py-4">
       <p>&copy; 2023 SkyOPG. All rights reserved.
         <br />
-       Site by <a href="https://kars.bio" className="text-orange-300">Kars</a></p>
+       With help from <a href="https://kars.bio" className="text-orange-300">Kars</a></p>
     </footer>
   );
 };
