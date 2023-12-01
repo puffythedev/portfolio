@@ -1,0 +1,25 @@
+@keyframes fillWidth {
+    0% {
+      width: 20%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .preloaderContainer {
+    background-color: rgba(0, 0, 0);
+    z-index: 9999;
+  }
+  
+  .loadingBar {
+    height: 2px;
+    width: 32px;
+    background-color: linear-gradient(90deg, #4CAF50, #84DCC6);
+    border-radius: 9999px;
+  }
+  
+  .animate {
+    animation: fillWidth 1s ease-in-out;
+  }
+  
