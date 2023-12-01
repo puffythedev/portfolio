@@ -18,12 +18,12 @@ const Preloader: React.FC = () => {
         showPreloader ? 'visible' : 'invisible'
       }`}
       style={{
-        backgroundColor: 'rgba(0, 0, 0, 0.8)', 
+        backgroundColor: 'rgba(0, 0, 0)', 
         zIndex: 9999, 
       }}
     >
       <img
-        src="https://media.kars.bio/assets/pfp.gif" // Replace with the path to your loader image
+        src="https://media.kars.bio/assets/pfp.gif"
         alt="Preloader"
         className="rounded-full"
         style={{ width: '50px', height: '50px' }}
