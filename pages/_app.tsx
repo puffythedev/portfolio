@@ -3,7 +3,7 @@ import '../styles/globals.css'
 
 export const metadata: Metadata = {
   title: 'Sky - Developer',
-  description: 'Portfolio of Your Name, a passionate web developer specializing in UI/UX Design, Responsive Web Design, and Backend Development.'
+  description: 'General Portfolio for SkyOPG'
 }
 
 export default function App({ Component, pageProps }: {

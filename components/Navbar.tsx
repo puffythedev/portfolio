@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="bg-black p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white font-bold text-xl">Your Logo</div>
+        <div className="text-white font-bold text-xl">SkyOPG</div>
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
@@ -68,7 +68,7 @@ const Navbar = () => {
 
       {/* Responsive Menu */}
       {isOpen && (
-        <div className="lg:hidden bg-black absolute top-16 left-0 right-0 p-4">
+        <div className="lg:hidden bg-black absolute top-16 items-right p-4">
           <a href="#" className="block text-white mb-2">
             Home
           </a>
