@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const navItems = [
@@ -18,7 +19,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="p-4 fixed w-full top-0 backdrop-filter backdrop-blur-md">
       <div className="container mx-auto flex justify-between items-center">
-        <a className="text-white font-bold text-xl uppercase focus:outline-none focus:ring" href='/#'>SkyOPG</a>
+        <Link className="text-white font-bold text-xl uppercase focus:outline-none focus:ring" href='/#'>SkyOPG</Link>
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
