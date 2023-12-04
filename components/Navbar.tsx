@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-black p-4 fixed w-full top-0 backdrop-filter backdrop-blur-md">
+    <nav className="p-4 fixed w-full top-0 backdrop-filter backdrop-blur-md">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold text-xl">Your Logo</div>
         <div className="lg:hidden">
