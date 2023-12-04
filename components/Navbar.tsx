@@ -1,7 +1,14 @@
 "use client"
 import React, { useState } from 'react';
 
-const Navbar = () => {
+const navItems = [
+  { id: 1, label: 'Home', link: '#' },
+  { id: 2, label: 'About', link: '#' },
+  { id: 3, label: 'Projects', link: '#' },
+  { id: 4, label: 'Contact', link: '#' },
+];
+
+const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -51,36 +58,21 @@ const Navbar = () => {
           </button>
         </div>
         <div className="hidden lg:flex space-x-4">
-          <a href="#" className="text-white">
-            Home
-          </a>
-          <a href="#" className="text-white">
-            About
-          </a>
-          <a href="#" className="text-white">
-            Projects
-          </a>
-          <a href="#" className="text-white">
-            Contact
-          </a>
+          {navItems.map((item) => (
+            <a key={item.id} href={item.link} className="text-white">
+              {item.label}
+            </a>
+          ))}
         </div>
       </div>
 
-      {/* Responsive Menu */}
       {isOpen && (
-        <div className="lg:hidden bg-black absolute top-16 items-right p-4">
-          <a href="#" className="block text-white mb-2">
-            Home
-          </a>
-          <a href="#" className="block text-white mb-2">
-            About
-          </a>
-          <a href="#" className="block text-white mb-2">
-            Projects
-          </a>
-          <a href="#" className="block text-white mb-2">
-            Contact
-          </a>
+        <div className="lg:hidden bg-black absolute top-16 left-0 right-0 p-4">
+          {navItems.map((item) => (
+            <a key={item.id} href={item.link} className="block text-white mb-2">
+              {item.label}
+            </a>
+          ))}
         </div>
       )}
     </nav>
