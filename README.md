@@ -1,3 +1,5 @@
+![Alt](https://repobeats.axiom.co/api/embed/8e1d51434ec87540410f377d5b950bf9be8415dd.svg "Repobeats analytics image")
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
