@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import AboutMe from '../components/AboutMe';
 import Footer from '../components/Footer';
 import Preloader from '../components/Preloader';
+import Testimonials from '@/components/Testimonials';
 
 const Home = () => (
   <div className="bg-black text-white">
@@ -13,6 +14,7 @@ const Home = () => (
     <Navbar />  
     <Hero />
     <AboutMe />
+    <Testimonials />
     <Footer />
   </div>
 );
