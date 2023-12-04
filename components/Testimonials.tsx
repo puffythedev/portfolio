@@ -19,10 +19,10 @@ const Testimonials: React.FC = () => {
     },
 	{
 		id: 1,
-		quote: "something",
-		author: "the real something",
-		role: "something",
-		img: "/placeholder"
+		quote: "I eat animal's hearts",
+		author: "Yastube",
+		role: "TeamEnvex Owner",
+		img: "/public/yastube.png"
 	}
   ];
 
