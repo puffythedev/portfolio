@@ -16,9 +16,9 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="backdrop-filter backdrop-blur-md fixed p-4">
+    <nav className="bg-black p-4 fixed w-full top-0 backdrop-filter backdrop-blur-md">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white font-bold text-xl">SkyOPG</div>
+        <div className="text-white font-bold text-xl">Your Logo</div>
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
@@ -67,7 +67,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {isOpen && (
-        <div className="lg:hidden bg-black absolute top-16 left-0 right-0 p-4">
+        <div className="lg:hidden bg-black absolute top-16 left-0 right-0 p-4 backdrop-filter backdrop-blur-md">
           {navItems.map((item) => (
             <a key={item.id} href={item.link} className="block text-white mb-2">
               {item.label}
