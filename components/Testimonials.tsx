@@ -18,11 +18,18 @@ const Testimonials: React.FC = () => {
 	  img: "https://cdn3.kars.bio/assets/external/sky_1.webp"
     },
 	{
-		id: 1,
-		quote: "I eat animal's hearts",
+		id: 2,
+		quote: "I eat animal's hearts\n",
 		author: "Yastube",
 		role: "TeamEnvex Owner",
 		img: "https://cdn3.kars.bio/assets/external/sky_2.webp"
+	},
+	{
+		id: 3,
+		quote: "Hi\n",
+		author: "notbangbang",
+		role: "Pro MC gamer",
+		img: "https://cdn.discordapp.com/attachments/1173954453045514240/1181351258242678895/t3WSIkm.png "
 	}
   ];
 
