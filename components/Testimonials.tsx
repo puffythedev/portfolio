@@ -15,14 +15,14 @@ const Testimonials: React.FC = () => {
       quote: "always sky, always sky; boyfriends can be gay and girlfriends can be lesbian",
       author: "Julian",
       role: "XenoFM owner",
-	  img: "/public/julian.webp"
+	  img: "https://cdn3.kars.bio/assets/external/sky_1.webp"
     },
 	{
 		id: 1,
 		quote: "I eat animal's hearts",
 		author: "Yastube",
 		role: "TeamEnvex Owner",
-		img: "/public/yastube.png"
+		img: "https://cdn3.kars.bio/assets/external/sky_2.webp"
 	}
   ];
 
