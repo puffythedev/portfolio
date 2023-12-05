@@ -6,6 +6,7 @@ import AboutMe from '../components/AboutMe';
 import Footer from '../components/Footer';
 import Preloader from '../components/Preloader';
 import Testimonials from '@/components/Testimonials';
+import Projects from '@/components/Projects'
 import Head from 'next/head';
 
 const Home = () => (
@@ -20,6 +21,7 @@ const Home = () => (
     <Hero />
     <AboutMe />
     <Testimonials />
+    <Projects />
     <Footer />
   </div>
 );
