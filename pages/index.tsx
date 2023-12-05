@@ -8,6 +8,7 @@ import Preloader from '../components/Preloader';
 import Testimonials from '@/components/Testimonials';
 import Projects from '@/components/Projects'
 import Head from 'next/head';
+import Title from '@/components/Title';
 
 const Home = () => (
   <div className="bg-black text-white">
@@ -21,6 +22,7 @@ const Home = () => (
     <Hero />
     <AboutMe />
     <Testimonials />
+    <Title title="Projects" desc="Check out my latest work!"/>
     <Projects />
     <Footer />
   </div>

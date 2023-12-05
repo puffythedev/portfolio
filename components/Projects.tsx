@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
                             <img
                                 src={project.imageUrl}
                                 alt={project.title}
-                                className="w-full h-40 object-cover transition-transform transform group-hover:scale-110 group-hover:blur-md"
+                                className="w-full h-60 object-cover transition-transform transform group-hover:scale-110 group-hover:blur-md"
                             />
                         </a>
                         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
