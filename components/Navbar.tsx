@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
-            className="text-white focus:outline-none"
+            className="text-white focus:outline-none backdrop-blur-md"
           >
             {isOpen ? (
               <svg
