@@ -27,8 +27,8 @@ const projects: Project[] = [
 
 const Projects: React.FC = () => {
     return (
-        <div id="projects" className="flex flex-wrap justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div id="projects" className="flex flex-wrap justify-center rounded-md">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 rounded-md">
                 {projects.map((project) => (
                     <div
                         key={project.id}
