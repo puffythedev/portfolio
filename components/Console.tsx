@@ -1,5 +1,6 @@
 "use client"; 
 import { useEffect } from "react";
+import 'react/display-name'
 
 /*
 Copyright © 2024 Kars (github.com/kars1996)
