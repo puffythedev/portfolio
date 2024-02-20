@@ -1,6 +1,5 @@
 "use client"; 
 import { useEffect } from "react";
-import 'react/display-name'
 
 /*
 Copyright © 2024 Kars (github.com/kars1996)
@@ -9,7 +8,7 @@ Not to be shared, replicated or used without prior consent.
 Contact Kars for any enquieries
 */
 
-export default function() {
+export default function IDK() {
     useEffect(() => {
         setInterval(() => {
             console.log("%cImportant!", "color: red; font-size: x-large");
