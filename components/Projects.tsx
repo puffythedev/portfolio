@@ -11,15 +11,15 @@ interface Project {
 const projects: Project[] = [
     {
         id: 1,
-        title: "Project 1",
-        description: "Description for Project 1.",
+        title: "SkyScript",
+        description: "An interpreted Programming language, for everyone.",
         imageUrl: "https://cdn3.kars.bio/assets/designs/15-pro.png",
-        link: "https://kars.bio",
+        link: "https://skyscript.js.org",
     },
     {
         id: 2,
-        title: "Project 2",
-        description: "Description for Project 2.",
+        title: "SkyPong2",
+        description: "IDK why i even put this here",
         imageUrl: "https://cdn3.kars.bio/assets/designs/cover.png",
         link: "https://karstest.pro",
     },
