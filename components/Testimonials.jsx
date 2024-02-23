@@ -1,15 +1,8 @@
 import React from 'react';
 
-interface Testimonial {
-  id: number;
-  quote: string;
-  author: string;
-  role: string;
-  img: string;
-}
 
-const Testimonials: React.FC = () => {
-  const testimonials: Testimonial[] = [
+const Testimonials = () => {
+  const testimonials = [
     {
 		id: 0,
 		quote: "i luh ma bf🤪",

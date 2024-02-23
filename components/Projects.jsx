@@ -1,14 +1,6 @@
 import React from "react";
 
-interface Project {
-    id: number;
-    title: string;
-    description: string;
-    imageUrl: string;
-    link: string;
-}
-
-const projects: Project[] = [
+const projects = [
     {
         id: 1,
         title: "SkyScript",
@@ -25,7 +17,7 @@ const projects: Project[] = [
     },
 ];
 
-const Projects: React.FC = () => {
+const Projects = () => {
     return (
         <div id="projects" className="flex flex-wrap justify-center rounded-md">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 rounded-md">

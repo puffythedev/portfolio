@@ -9,6 +9,7 @@ import Testimonials from '@/components/Testimonials';
 import Projects from '@/components/Projects'
 import Head from 'next/head';
 import Title from '@/components/Title';
+import Kon from '@/components/Console';
 
 const Home = () => (
   <div className="bg-black text-white">
@@ -25,6 +26,7 @@ const Home = () => (
     <Title title="Projects" desc="Check out my latest work!"/>
     <Projects />
     <Footer />
+    <Kon />
   </div>
 );
 

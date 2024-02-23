@@ -9,7 +9,7 @@ const navItems = [
   { id: 4, label: 'Contact', link: '#' },
 ];
 
-const Navbar: React.FC = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {

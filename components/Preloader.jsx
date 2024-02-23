@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Preloader.module.css'; 
 
-const Preloader: React.FC = () => {
+const Preloader = () => {
   const [showPreloader, setShowPreloader] = useState(true);
 
   useEffect(() => {
