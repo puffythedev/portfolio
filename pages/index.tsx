@@ -44,7 +44,7 @@ function Home(){
 	}
   ];
   return (
-    <div className="bg-black text-white">
+    <div className="bg-slate-900 text-white">
       <Head>
         <meta name='title' content='SkyOPG - Developer' />
         <meta name='description' content="SkyOPG's official portfolio, made with hopes and dreams" />
@@ -53,7 +53,6 @@ function Home(){
 
       <Navbar />  
       <Hero />
-      <AboutMe />
       <Cards items={testimonials} />
       <Title title="Projects" desc="Check out my latest work!"/>
       <Projects />

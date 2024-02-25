@@ -2,6 +2,8 @@
 
 import cn from "../utils/cn";
 import React, { useEffect, useState } from "react";
+import { FollowerPointerCard } from "./FollowPointer";
+import Image from "next/image";
 
 export default function TST({
   items,
@@ -10,11 +12,7 @@ export default function TST({
   pauseOnHover = true,
   className,
 }: {
-  items: {
-    quote: string;
-    name: string;
-    title: string;
-  }[];
+  items: any[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
@@ -73,7 +71,7 @@ export default function TST({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:transparent]",
         className
       )}
     >
@@ -86,6 +84,7 @@ export default function TST({
         )}
       >
         {items.map((item, idx) => (
+        <FollowerPointerCard title={<TitleComponent title={item.name} avatar={item.img} />}>
           <li
             className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px]"
             style={{
@@ -114,8 +113,28 @@ export default function TST({
               </div>
             </blockquote>
           </li>
+          </ FollowerPointerCard>
         ))}
       </ul>
     </div>
   );
 };
+
+const TitleComponent = ({
+    title,
+    avatar,
+  }: {
+    title: string;
+    avatar: string;
+  }) => (
+    <div className="flex space-x-2 items-center">
+      <Image
+        src={avatar}
+        height="20"
+        width="20"
+        alt="thumbnail"
+        className="rounded-full border-2 border-white"
+      />
+      <p>{title}</p>
+    </div>
+  );
