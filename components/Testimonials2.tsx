@@ -3,7 +3,7 @@
 import cn from "../utils/cn";
 import React, { useEffect, useState } from "react";
 
-export default function ({
+export default function TST({
   items,
   direction = "left",
   speed = "fast",
