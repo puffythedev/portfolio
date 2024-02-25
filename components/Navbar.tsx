@@ -2,7 +2,12 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 
-const navItems = [
+interface NavItem {
+  id: number;
+  label: string;
+  link: string;
+}
+const navItems: NavItem[] = [
   { id: 1, label: 'Home', link: '#' },
   { id: 2, label: 'About', link: '#' },
   { id: 3, label: 'Projects', link: '#projects' },

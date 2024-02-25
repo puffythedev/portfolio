@@ -1,6 +1,14 @@
 import React from "react";
 
-const projects = [
+interface Project {
+    id: number;
+    title: string;
+    description: string;
+    imageUrl: string;
+    link: string;
+}
+
+const projects: Project[] = [
     {
         id: 1,
         title: "SkyScript",

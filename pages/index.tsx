@@ -11,23 +11,25 @@ import Head from 'next/head';
 import Title from '@/components/Title';
 import Kon from '@/components/Console';
 
-const Home = () => (
-  <div className="bg-black text-white">
-    <Head>
-      <meta name='title' content='SkyOPG - Developer' />
-      <meta name='description' content="SkyOPG's official portfolio, made with hopes and dreams" />
-    </Head>
-    <Preloader />
+function Home(){
+  return (
+    <div className="bg-black text-white">
+      <Head>
+        <meta name='title' content='SkyOPG - Developer' />
+        <meta name='description' content="SkyOPG's official portfolio, made with hopes and dreams" />
+      </Head>
+      <Preloader />
 
-    <Navbar />  
-    <Hero />
-    <AboutMe />
-    <Testimonials />
-    <Title title="Projects" desc="Check out my latest work!"/>
-    <Projects />
-    <Footer />
-    <Kon />
-  </div>
-);
+      <Navbar />  
+      <Hero />
+      <AboutMe />
+      <Testimonials />
+      <Title title="Projects" desc="Check out my latest work!"/>
+      <Projects />
+      <Footer />
+      <Kon />
+    </div>
+  )
+};
 
 export default Home;
