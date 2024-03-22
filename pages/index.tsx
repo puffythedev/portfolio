@@ -10,7 +10,6 @@ import Projects from '@/components/Projects'
 import Head from 'next/head';
 import Title from '@/components/Title';
 import Kon from '@/components/Console';
-import Cards from '@/components/Testimonials2'
 
 function Home(){
   const testimonials = [
@@ -50,10 +49,8 @@ function Home(){
         <meta name='description' content="SkyOPG's official portfolio, made with hopes and dreams" />
       </Head>
       <Preloader />
-
       <Navbar />  
       <Hero />
-      <Cards items={testimonials} />
       <Title title="Projects" desc="Check out my latest work!"/>
       <Projects />
       <Footer />
