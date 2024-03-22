@@ -1,9 +1,9 @@
 "use client";
-
+/*
 import cn from "../utils/cn";
 import React, { useEffect, useState } from "react";
 import { FollowerPointerCard } from "./FollowPointer";
-import Image from "next/image";
+import Image from "next/image";*/
 
 export default function TST({
   
@@ -120,7 +120,7 @@ export default function TST({
     </div>
   );
 */};
-
+/*
 const TitleComponent = ({
     title,
     avatar,
@@ -138,4 +138,4 @@ const TitleComponent = ({
       />
       <p>{title}</p>
     </div>
-  );
+  );*/
