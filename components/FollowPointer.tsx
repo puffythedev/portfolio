@@ -1,4 +1,4 @@
-// Core component that receives mouse positions and renders pointer and content
+/*// Core component that receives mouse positions and renders pointer and content
 
 import React, { useEffect, useState } from "react";
 
@@ -136,3 +136,4 @@ export const FollowPointer = ({
     </motion.div>
   );
 };
+*/
