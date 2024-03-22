@@ -8,7 +8,7 @@ export default function SkyScript(){
         <><Head>
         <meta name='title' content='SkyOPG.pro - Hall of names' />
         <meta name='description' content="just a cool idea idk" />
-      </Head> <Navbar /> <Title title='Hall of names' desc='dm "skyopg." in discord to get a part here' />
+      </Head> <Navbar /> <Title title='' desc='' /> <Title title='Hall of names' desc='dm "skyopg." in discord to get a part here' />
             <Title title='yo name here' desc={'description 🤯'} />
         </>
     )
