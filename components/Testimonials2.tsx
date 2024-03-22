@@ -6,6 +6,7 @@ import { FollowerPointerCard } from "./FollowPointer";
 import Image from "next/image";
 
 export default function TST({
+  
   items,
   direction = "left",
   speed = "fast",
@@ -17,7 +18,7 @@ export default function TST({
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
   className?: string;
-}) {
+}) {/*
   const containerRef = React.useRef<HTMLDivElement>(null);
   const scrollerRef = React.useRef<HTMLUListElement>(null);
 
@@ -118,7 +119,7 @@ export default function TST({
       </ul>
     </div>
   );
-};
+*/};
 
 const TitleComponent = ({
     title,
