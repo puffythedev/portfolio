@@ -12,6 +12,8 @@ export default function SkyScript(){
             <Title title='jaydennxo' desc={'cute person'} />
             <Title title='seppukujunkie' desc={'hot sexy man'} />
             <Title title='lilliancx' desc={'coolest person ever 💯'} />
+            <Title title='z3n.xyz' desc={'“Basically high”'} />
+            
             <Title title='skyopg.' desc={'i work in the fields'} />
         </> 
     )
