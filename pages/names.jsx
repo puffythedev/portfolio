@@ -10,7 +10,9 @@ export default function SkyScript(){
         <meta name='description' content="just a cool idea idk" />
       </Head> <Navbar /> <Title title='' desc='' /> <Title title='Hall of names' desc='dm "skyopg." in discord to get a part here' />
             <Title title='jaydennxo' desc={'cute person'} />
-            <Title title='skyopg.' desc={'u better talk to me or i be sad'} />
-        </>
+            <Title title='seppukujunkie' desc={'hot sexy man'} />
+            <Title title='lilliancx' desc={'coolest person ever 💯'} />
+            <Title title='skyopg.' desc={'i work in the fields'} />
+        </> 
     )
 }
