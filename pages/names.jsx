@@ -11,7 +11,7 @@ export default function SkyScript(){
         },
         {
             name: "marithesaint",
-            desc: "she's NOT a saint"
+            description: "she's NOT a saint"
         },
         {
             name: "seppukujunkie",
