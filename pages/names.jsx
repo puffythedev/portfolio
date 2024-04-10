@@ -10,6 +10,10 @@ export default function SkyScript(){
             description: "cute person"
         },
         {
+            name: "marithesaint",
+            desc: "she's NOT a saint"
+        },
+        {
             name: "seppukujunkie",
             description: "hot sexy man"
         },
