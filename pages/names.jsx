@@ -38,6 +38,6 @@ export default function SkyScript(){
             {names.map(n => (
             <Title title={n.name} desc={n.description} />
             ))}
-        <div /> 
+        </div> 
     )
 }
