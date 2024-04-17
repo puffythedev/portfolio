@@ -42,7 +42,7 @@ export default function SkyScript(){
         <div className="bg-slate-900 text-white"><Head>
         <meta name='title' content='SkyOPG.pro - Hall of names' />
         <meta name='description' content="just a cool idea idk" />
-      </Head> <Navbar /> <Title title='' desc='' /> <Title title='Hall of names' desc='dm "skyopg." in discord to get a part here' />
+      </Head> <Navbar /> <Title title='' desc='' /> <Title title='Hall of names' desc='dm "skyopg.pro" in discord to get a part here' />
             {names.map(n => (<>
             <Title title={n.name} desc={n.description} />
                 </>
