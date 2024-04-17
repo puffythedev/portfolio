@@ -6,6 +6,10 @@ import Head from 'next/head';
 export default function SkyScript(){
     const names = [
         {
+            name: "aqhe",
+            description: "d4ddy, my boss, codespiral, matching, best friends, netherlands"
+        },
+        {
             name: "jaydennxo",
             description: "cute person"
         },
