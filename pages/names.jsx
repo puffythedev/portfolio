@@ -22,6 +22,10 @@ export default function SkyScript(){
             description: "coolest person ever 💯"
         },
         {
+            name: "koda",
+            description: "fat ass and big titty with alot of attatude plzzzzzzzzzzz"
+        },
+        {
             name: "z3n.xyz",
             description: "“Basically high”"
         },
