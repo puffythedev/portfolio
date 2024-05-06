@@ -5,7 +5,7 @@ const AboutMe = ({ traits }: any) => {
   return (
     <section className="container mx-auto text-center py-12">
       <div className="flex justify-center">
-        {idk.forEach((trait: string) => (
+        {idk.map((trait: string) => (
         <div className="bg-gray-800 text-white rounded-full p-4 mx-2">
           <p>{trait}</p>
         </div>
