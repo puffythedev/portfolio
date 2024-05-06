@@ -7,7 +7,7 @@ const AboutMe = ({ traits }: any) => {
       <div className="flex justify-center">
         {idk.map((trait: string) => (
         <div className="bg-gray-800 text-white rounded-full p-4 mx-2">
-          <p>{trait}</p>
+          <p>{`${trait}`}</p>
         </div>
         ))}
       </div>
