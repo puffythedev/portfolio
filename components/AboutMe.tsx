@@ -5,8 +5,8 @@ const AboutMe = ({ traits }: any) => {
   return (
     <section className="container mx-auto text-center py-12">
       <div className="flex justify-center">
-        {idk.map((trait: string) => (
-        <div className="bg-gray-800 text-white rounded-full p-4 mx-2">
+        {idk.map((trait: string, i: number) => (
+        <div key={`${i}`} className="bg-gray-800 text-white rounded-full p-4 mx-2">
           <p>{`${trait}`}</p>
         </div>
         ))}
