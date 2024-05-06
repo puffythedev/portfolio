@@ -1,18 +1,15 @@
 import React from 'react';
-
-const AboutMe = () => {
+// Passionate Developer, Creative Mind, Tech Enthusiast
+const AboutMe = ({ traits }) => {
+  const idk = traits.trim().slice(", ")
   return (
     <section className="container mx-auto text-center py-12">
       <div className="flex justify-center">
+        {idk.forEach(trait => (
         <div className="bg-gray-800 text-white rounded-full p-4 mx-2">
-          <p>Passionate Developer</p>
+          <p>{trait}</p>
         </div>
-        <div className="bg-gray-800 text-white rounded-full p-4 mx-2">
-          <p>Creative Mind</p>
-        </div>
-        <div className="bg-gray-800 text-white rounded-full p-4 mx-2">
-          <p>Tech Enthusiast</p>
-        </div>
+        ))}
       </div>
     </section>
   );
