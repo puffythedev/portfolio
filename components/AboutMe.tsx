@@ -1,7 +1,7 @@
 import React from 'react';
 // Passionate Developer, Creative Mind, Tech Enthusiast
 const AboutMe = ({ traits }: any) => {
-  const idk = traits.trim().slice(", ")
+  const idk = traits.slice(", ")
   return (
     <section className="container mx-auto text-center py-12">
       <div className="flex justify-center">
