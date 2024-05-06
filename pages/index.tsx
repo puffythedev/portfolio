@@ -51,6 +51,7 @@ function Home(){
       <Preloader />
       <Navbar />  
       <Hero />
+      <AboutMe traits="Passionate Developer, Creative Mind, Tech Enthusiast" />
       <Title title="Projects" desc="Check out my latest work!"/>
       <Projects />
       <Footer />
