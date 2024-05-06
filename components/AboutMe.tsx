@@ -1,6 +1,6 @@
 import React from 'react';
 // Passionate Developer, Creative Mind, Tech Enthusiast
-const AboutMe = ({ traits }) => {
+const AboutMe = ({ traits }: {traits: string}) => {
   const idk = traits.trim().slice(", ")
   return (
     <section className="container mx-auto text-center py-12">
