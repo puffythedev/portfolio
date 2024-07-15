@@ -18,10 +18,6 @@ export default function SkyScript(){
             description: "she's NOT a saint"
         },
         {
-            name: "millatron",
-            description: "married to megatron since 1984"
-        },
-        {
             name: "seppukujunkie",
             description: "hot sexy man"
         },
