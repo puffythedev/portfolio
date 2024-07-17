@@ -10,13 +10,6 @@ interface Testimonial {
 
 const Testimonials = () => {
   const testimonials: Testimonial[] = [
-    {
-		id: 0,
-		quote: "i luh ma bf🤪",
-		author: "Khloe",
-		role: "Sky's wife",
-		img: "https://cdn.discordapp.com/avatars/1129112487900491876/5f0136a9e29c6c206ff6f5bba181cc06.webp"
-	},
 	{
       id: 1,
       quote: "always sky, always sky; boyfriends can be gay and girlfriends can be lesbian",
@@ -30,13 +23,6 @@ const Testimonials = () => {
 		author: "Yastube",
 		role: "TeamEnvex Owner",
 		img: "https://cdn3.kars.bio/assets/external/sky_2.webp"
-	},
-	{
-		id: 3,
-		quote: "Hi\n",
-		author: "notbangbang",
-		role: "Pro MC gamer",
-		img: "https://cdn.discordapp.com/attachments/1173954453045514240/1181351258242678895/t3WSIkm.png"
 	}
   ];
 

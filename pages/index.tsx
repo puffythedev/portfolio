@@ -52,6 +52,8 @@ function Home(){
       <Navbar />  
       <Hero />
       <AboutMe traits="Passionate Developer, Creative Mind, Tech Enthusiast" />
+      <Title title="Testimonials" desc="See what people think of me!!"/>
+      <Testimonials />
       <Title title="Projects" desc="Check out my latest work!"/>
       <Projects />
       <Footer />
