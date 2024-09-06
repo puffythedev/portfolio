@@ -16,6 +16,11 @@ const navItems: NavItem[] = [
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDialog, setDialog] = useState(false);
+
+  const textbox = () => {
+	setDialog(!isDialog);
+  }
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -24,7 +29,7 @@ const Navbar = () => {
   return (
     <nav className="p-4 fixed w-full top-0 backdrop-filter backdrop-blur-md">
       <div className="container mx-auto flex justify-between items-center">
-        <Link className="text-white font-bold text-xl uppercase focus:outline-none focus:ring" href='/#'>SkyOPG</Link>
+        <text className="text-white font-bold text-xl uppercase focus:outline-none focus:ring" onClick={textbox}>SkyOPG</text>
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
