@@ -1,11 +1,11 @@
-'use client'
+"use client"
 
-import { useState, useEffect } from 'react'
-import Image from 'next/image'
-import { motion, useScroll, useTransform } from 'framer-motion'
-import { Github, Instagram, Mail, Terminal, Code, Cpu } from 'lucide-react';
+import { useState, useEffect } from "react"
+import Image from "next/image"
+import { motion, useScroll, useTransform } from "framer-motion"
+import { Github, Instagram, Mail, Terminal, Code, Cpu } from "lucide-react";
 import { Button } from "@/components/ui/button"
-import Link from 'next/link'
+import Link from "next/link"
 
 interface SkillCardProps {
   title: string;
@@ -15,7 +15,7 @@ interface SkillCardProps {
 const SkillCard: React.FC<SkillCardProps> = ({ title, description }) => {
   return (
     <div className="bg-[#112240] border-[#64ffda] rounded-lg p-4 flex flex-col h-full">
-      <h3 className="text-lg font-semibold mb-2 text-[#64ffda]">{title === "C++" ? <Terminal className='mr-2' /> : title === 'Assembly' ? <Cpu className='mr-2' /> : <Code className='mr-2' />} {title}</h3>
+      <h3 className="text-lg font-semibold mb-2 text-[#64ffda]">{title === "C++" ? <Terminal className="mr-2" /> : title === "Assembly" ? <Cpu className="mr-2" /> : <Code className="mr-2" />} {title}</h3>
       <p className="text-sm text-[#8892b0] flex-grow">{description}</p>
     </div>
   );
@@ -82,20 +82,20 @@ export default function ScrollablePortfolio() {
             <div className="container mx-auto px-4">
               <h2 className="text-3xl font-bold mb-8 text-[#64ffda]">About Me</h2>
               <p className="text-lg mb-12 text-[#8892b0]">
-                With over 5 years of experience in backend development, I specialize in creating awesome (but sometimes dumb), high-performance Apps and Systems using C++, JavaScript/TypeScript, and even getting as low-level as Assembly for the best optimizations. My passion is in solving problems nobody cares about and building crazy projects that i surely can't maintain alone (yet i do it, somehow).
+                With over 5 years of experience in backend development, I specialize in creating awesome (but sometimes dumb), high-performance Apps and Systems using C++, JavaScript/TypeScript, and even getting as low-level as Assembly for the best optimizations. My passion is in solving problems nobody cares about and building crazy projects that i surely can&apos;t maintain alone (yet i do it, somehow).
               </p>
               <div className="grid gap-8 md:grid-cols-3">
                 <SkillCard 
-                  title='C++'
-                  description='Expert in modern C++17, with a focus on high-performance app development and system-level programming.'
+                  title="C++"
+                  description="Expert in modern C++17, with a focus on high-performance app development and system-level programming."
                 />
                 <SkillCard 
-                  title='JS & TS'
-                  description='Proficient in building any kind of Node.js applications and APIs using multiple libraries!'
+                  title="JS & TS"
+                  description="Proficient in building any kind of Node.js applications and APIs using multiple libraries!"
                 />
                 <SkillCard 
-                  title='Assembly'
-                  description='I use my experience in 16 bit x86 assembly for embedded systems programming.'
+                  title="Assembly"
+                  description="I use my experience in 16 bit x86 assembly for embedded systems programming."
                 />
                 
               </div>
@@ -111,7 +111,7 @@ export default function ScrollablePortfolio() {
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="text-[#64ffda]">C++, TypeScript</span>
-                    <Link href={'https://ecliptix.skyopg.pro'}><Button className="bg-[#64ffda] text-[#0a192f] hover:bg-[#8892b0]">View Project</Button></Link>
+                    <Link href={"https://ecliptix.skyopg.pro"}><Button className="bg-[#64ffda] text-[#0a192f] hover:bg-[#8892b0]">View Project</Button></Link>
                   </div>
                 </div>
                 <div className="bg-[#112240] border-[#64ffda] rounded-lg p-6">
@@ -121,7 +121,7 @@ export default function ScrollablePortfolio() {
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="text-[#64ffda]">C++</span>
-                    <Link href={'https://github.com/webwisetech/GameX'}><Button className="bg-[#64ffda] text-[#0a192f] hover:bg-[#8892b0]">View Project</Button></Link>
+                    <Link href={"https://github.com/webwisetech/GameX"}><Button className="bg-[#64ffda] text-[#0a192f] hover:bg-[#8892b0]">View Project</Button></Link>
                   </div>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function ScrollablePortfolio() {
 
           <footer className="bg-[#0a192f] py-8">
             <div className="container mx-auto px-4 text-center text-[#a5e9f9]">
-              <p>&copy; 2024 SkyOPG & <Link className='text-[#12ceeb] hover:text-[#7ddff8]' href={'https://webwisetech.org'}>Webwise Technologies</Link>. All rights reserved.</p>
+              <p>&copy; 2024 SkyOPG & <Link className="text-[#12ceeb] hover:text-[#7ddff8]" href={"https://webwisetech.org"}>Webwise Technologies</Link>. All rights reserved.</p>
             </div>
           </footer>
         </main>
