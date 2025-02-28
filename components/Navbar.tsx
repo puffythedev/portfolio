@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <nav className="p-4 fixed w-full top-0 backdrop-filter backdrop-blur-md">
       <div className="container mx-auto flex justify-between items-center">
-        <text className="text-white font-bold text-xl uppercase focus:outline-none focus:ring" onClick={textbox}>SkyOPG</text>
+        <text className="text-white font-bold text-xl uppercase focus:outline-none focus:ring" onClick={textbox}>Puffy</text>
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}

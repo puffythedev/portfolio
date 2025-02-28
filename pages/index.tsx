@@ -54,9 +54,9 @@ export default function ScrollablePortfolio() {
       <div className="relative z-10">
         <header className="fixed top-0 left-0 right-0 z-50">
           <nav className="container mx-auto py-4 px-4 flex justify-between items-center">
-            <h1 className="text-2xl font-bold text-[#12ceeb]">SkyOPG</h1>
+            <h1 className="text-2xl font-bold text-[#12ceeb]">Puffy</h1>
             <div className="flex space-x-4">
-              <a href="https://github.com/SkyOPG" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+              <a href="https://github.com/puffythedev" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
                 <Github className="w-6 h-6 text-[#12ceeb] hover:text-[#7ddff8]" />
               </a>
               <a href="https://instagram.com/skyopg_real" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
@@ -111,7 +111,7 @@ export default function ScrollablePortfolio() {
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="text-[#64ffda]">C++, TypeScript</span>
-                    <Link href={"https://ecliptix.skyopg.pro"}><Button className="bg-[#64ffda] text-[#0a192f] hover:bg-[#8892b0]">View Project</Button></Link>
+                    <Link href={"https://ecliptix.Puffy.pro"}><Button className="bg-[#64ffda] text-[#0a192f] hover:bg-[#8892b0]">View Project</Button></Link>
                   </div>
                 </div>
                 <div className="bg-[#112240] border-[#64ffda] rounded-lg p-6">
@@ -130,7 +130,7 @@ export default function ScrollablePortfolio() {
 
           <footer className="bg-[#0a192f] py-8">
             <div className="container mx-auto px-4 text-center text-[#a5e9f9]">
-              <p>&copy; 2024 SkyOPG & <Link className="text-[#12ceeb] hover:text-[#7ddff8]" href={"https://webwisetech.org"}>Webwise Technologies</Link>. All rights reserved.</p>
+              <p>&copy; 2025 Puffy & <Link className="text-[#12ceeb] hover:text-[#7ddff8]" href={"https://webwisetech.org"}>Webwise Technologies</Link>. All rights reserved.</p>
             </div>
           </footer>
         </main>

@@ -2,8 +2,8 @@ import { NextComponentType } from 'next'
 import '../styles/globals.css'
 
 export const metadata = {
-  title: 'Sky - Developer',
-  description: 'General Portfolio for SkyOPG'
+  title: 'Puffy - Developer',
+  description: 'General Portfolio for Puffy'
 }
 
 export default function App({ Component, pageProps }: {

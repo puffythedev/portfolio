@@ -1,6 +1,6 @@
 ![Alt](https://repobeats.axiom.co/api/embed/8e1d51434ec87540410f377d5b950bf9be8415dd.svg "Repobeats analytics image")
 
-# SkyOPG's Developer Portfolio
+# Puffy's Developer Portfolio
 
 Welcome to My portfolio site, a showcase of skills and projects by a talented backend developer. This portfolio site is built using Next.js and has been crafted with precision and passion for development. Special thanks to Kars for the inspiration and collaboration. Check out Kars' website at [kars.bio](https://kars.bio) for more inspiration!
 
@@ -23,8 +23,8 @@ My portfolio site is designed to highlight my expertise in backend development. 
 - **Next.js**: Built with the popular React framework for server-rendered React applications.
 - **Responsive Design**: Ensures an optimal viewing experience across a wide range of devices.
 - **Project Showcase**: A dedicated section to display completed projects with detailed information.
-- **Skill Set**: Highlights the backend development skills and technologies SkyOPG is proficient in.
-- **Contact Information**: Easily reach out to SkyOPG through provided contact details.
+- **Skill Set**: Highlights the backend development skills and technologies Puffy is proficient in.
+- **Contact Information**: Easily reach out to Puffy through provided contact details.
 
 ## Getting Started
 
@@ -42,7 +42,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/skyopg/portfolio.git
+    git clone https://github.com/Puffy/portfolio.git
     ```
 
 2. Navigate to the project directory:
