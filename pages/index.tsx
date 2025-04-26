@@ -130,7 +130,7 @@ export default function ScrollablePortfolio() {
 
           <footer className="bg-[#0a192f] py-8">
             <div className="container mx-auto px-4 text-center text-[#a5e9f9]">
-              <p>&copy; 2025 Puffy & <Link className="text-[#12ceeb] hover:text-[#7ddff8]" href={"https://webwisetech.org"}>Webwise Technologies</Link>. All rights reserved.</p>
+              <p>&copy; 2025 Puffy & <Link className="text-[#12ceeb] hover:text-[#7ddff8]" href={"https://webwisetech.org"}>Webwise Technologies</Link>, with the support of my wife elli. All rights reserved.</p>
             </div>
           </footer>
         </main>
