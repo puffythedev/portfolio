@@ -84,7 +84,7 @@ export default function ScrollablePortfolio() {
               <p className="text-lg mb-12 text-[#8892b0]">
                 With over 5 years of experience in backend development, I specialize in creating awesome (but sometimes dumb), high-performance Apps and Systems using C++, JavaScript/TypeScript, and even getting as low-level as Assembly for the best optimizations. My passion is in solving problems nobody cares about and building crazy projects that i surely can&apos;t maintain alone (yet i do it, somehow).
               </p>
-              <div className="grid gap-8 md:grid-cols-3">
+              <div id="experience" className="grid gap-8 md:grid-cols-3">
                 <SkillCard 
                   title="C++"
                   description="Expert in modern C++17, with a focus on high-performance app development and system-level programming."
